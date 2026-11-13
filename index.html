@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="LinkEdge Tech Solutions لخدمات الشبكات والأنظمة والتيار الخفيف في بورسعيد.">
+  <title>LinkEdge Tech Solutions | حلول تقنية متكاملة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#0B2545;--card:#12315C;--orange:#F28C28;--light:#F3F6FA;--ink:#122033;--muted:#66758a;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:"Cairo",sans-serif;color:var(--ink);background:var(--white);line-height:1.75}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}svg{display:block}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.section{padding:82px 0}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--orange);font-weight:800;font-size:.9rem}.eyebrow:before{content:"";width:24px;height:3px;border-radius:3px;background:var(--orange)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2.25rem,7vw,4.6rem);line-height:1.25;margin-bottom:20px;letter-spacing:-.04em}h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.35;margin:9px 0 12px;color:var(--navy)}h3{font-size:1.2rem;margin-bottom:9px}.lead{color:var(--muted);max-width:650px;margin-bottom:0}.head{text-align:center;margin-bottom:38px}.head .lead{margin-inline:auto}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:50px;padding:11px 22px;border:1px solid transparent;border-radius:12px;font-weight:800;cursor:pointer;transition:.25s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--orange);color:#1d2733;box-shadow:0 10px 25px #f28c2840}.btn-outline{border-color:#ffffff55;color:#fff;background:#ffffff0b}.btn-outline:hover{background:#fff;color:var(--navy)}.btn svg{width:20px;height:20px}
+    header{height:76px;position:sticky;top:0;z-index:20;background:#0b2545f2;backdrop-filter:blur(12px);border-bottom:1px solid #ffffff16;color:#fff}.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:10px;direction:ltr}.logo{width:46px;height:46px;background:var(--navy);border:1px solid #ffffff25;border-radius:12px;padding:5px;box-shadow:0 7px 18px #0002}.brand-name{font:800 1.07rem/1.15 "Inter",sans-serif;white-space:nowrap}.edge{color:var(--orange)}nav{display:flex;align-items:center;gap:25px;font-size:.91rem;font-weight:600}nav a{color:#d9e2ec;transition:.2s}nav a:hover{color:var(--orange)}header .btn{min-height:42px;padding:8px 15px;font-size:.88rem}
+    .hero{min-height:680px;display:grid;place-items:center;position:relative;overflow:hidden;color:#fff;background:radial-gradient(circle at 15% 30%,#17477c 0,transparent 33%),linear-gradient(135deg,#071c35,#0b2545 63%,#0d2e56)}.net{position:absolute;inset:0;width:100%;height:100%;opacity:.2}.hero:after{content:"";position:absolute;inset:auto 0 0;height:120px;background:linear-gradient(transparent,#071c3544)}.hero-inner{position:relative;z-index:1;padding:100px 0 90px}.hero-copy{max-width:790px}.hero h1 span{color:var(--orange)}.hero .intro{font-size:clamp(1rem,2.3vw,1.25rem);color:#cfdae7;max-width:680px;margin-bottom:28px}.actions{display:flex;gap:12px;flex-wrap:wrap}.audience{display:flex;gap:9px;flex-wrap:wrap;margin-top:36px}.audience span{padding:6px 13px;border:1px solid #ffffff24;border-radius:99px;background:#ffffff0a;color:#dce5ef;font-size:.82rem}.hero-badge{position:absolute;left:0;bottom:90px;width:220px;padding:17px;border:1px solid #ffffff1f;border-radius:18px;background:#ffffff0e;backdrop-filter:blur(10px)}.hero-badge strong{display:block;color:var(--orange);font-size:1.05rem}.hero-badge small{color:#cfdae7}
+    .services{background:var(--light)}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service{background:var(--card);color:#fff;border-radius:20px;padding:27px;box-shadow:0 15px 35px #0b254516;transition:.3s;position:relative;overflow:hidden}.service:after{content:"";position:absolute;width:120px;height:120px;border-radius:50%;background:#f28c280e;left:-40px;bottom:-50px}.service:hover{transform:translateY(-7px)}.icon{width:54px;height:54px;display:grid;place-items:center;border-radius:15px;background:#f28c281c;color:var(--orange);margin-bottom:20px}.icon svg{width:29px;height:29px}.service h3{font-size:1.35rem}.service p{color:#cbd7e4;margin:0;font-size:.94rem}
+    .why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}.why-panel{border-radius:24px;padding:38px;background:var(--navy);color:#fff;position:relative;overflow:hidden}.why-panel:before{content:"";position:absolute;width:240px;height:240px;border:60px solid #ffffff08;border-radius:50%;left:-100px;top:-110px}.why-panel h2{color:#fff}.why-panel p{color:#cbd7e4}.owner{display:flex;align-items:center;gap:13px;margin-top:25px;padding-top:20px;border-top:1px solid #ffffff1c}.owner-mark{width:47px;height:47px;display:grid;place-items:center;background:var(--orange);color:var(--navy);border-radius:13px;font-weight:800}.owner small{display:block;color:#aebfd0}.features{display:grid;grid-template-columns:1fr 1fr;gap:15px}.feature{padding:21px;border:1px solid #dce4ed;border-radius:17px;background:#fff}.check{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:#fff2e6;color:var(--orange);margin-bottom:12px;font-weight:800}.feature p{color:var(--muted);font-size:.9rem;margin:0}
+    .steps{background:var(--light)}.step-grid{display:grid;grid-template-columns:repeat(4,1fr);position:relative;gap:18px}.step-grid:before{content:"";height:2px;background:#d7dee8;position:absolute;top:30px;right:10%;left:10%}.step{text-align:center;position:relative}.num{width:60px;height:60px;display:grid;place-items:center;margin:0 auto 15px;border-radius:50%;background:var(--navy);color:#fff;border:6px solid var(--light);box-shadow:0 0 0 2px var(--orange);font:800 1rem "Inter",sans-serif}.step h3{font-size:1.05rem}
+    .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:46px;align-items:start}.contact-info{background:var(--navy);color:#fff;border-radius:22px;padding:32px}.contact-info h2{color:#fff}.contact-info p{color:#cbd7e4}.info-row{display:flex;gap:13px;align-items:center;padding:15px 0;border-top:1px solid #ffffff17}.info-row svg{width:21px;color:var(--orange);flex:none}.info-row small{display:block;color:#9fb0c2}.phone{direction:ltr;display:inline-block;font-family:"Inter",sans-serif}.form{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}label{font-size:.87rem;font-weight:700;color:#3c4a5d}input,select,textarea{width:100%;border:1px solid #d8e0e9;background:#f8fafc;border-radius:11px;padding:12px 14px;color:var(--ink);outline:none;transition:.2s}input:focus,select:focus,textarea:focus{border-color:var(--orange);box-shadow:0 0 0 3px #f28c2818}textarea{min-height:115px;resize:vertical}.form .btn{grid-column:1/-1;border:0}
+    footer{background:#071c35;color:#bdc9d6;padding:28px 0}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:.87rem}.foot .brand{color:#fff}.float{position:fixed;z-index:30;left:22px;bottom:22px;width:58px;height:58px;display:grid;place-items:center;border-radius:50%;background:#25D366;color:#fff;box-shadow:0 10px 28px #0b25454d;transition:.25s}.float:hover{transform:scale(1.08)}.float svg{width:29px}.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}.reveal.show{opacity:1;transform:none}
+    @media(max-width:850px){nav{display:none}.hero-badge{display:none}.grid3{grid-template-columns:1fr}.why-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.step-grid{grid-template-columns:1fr 1fr;row-gap:30px}.step-grid:before{display:none}.service{padding:24px}}
+    @media(max-width:560px){.wrap{width:min(100% - 24px,1120px)}.section{padding:64px 0}header .brand-name{font-size:.91rem}header .btn{padding:8px 10px}.hero{min-height:650px}.hero-inner{padding:78px 0}.actions .btn{width:100%}.audience{margin-top:27px}.features,.form{grid-template-columns:1fr}.field.full,.form .btn{grid-column:auto}.step-grid{grid-template-columns:1fr}.foot{flex-direction:column;text-align:center}.foot .brand{display:none}.contact-info,.why-panel{padding:25px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.btn,.service,.float{transition:none}}
+  </style>
+  <style>
+    .float-facebook{left:92px;background:#1877f2}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="LinkEdge Tech Solutions">
+        <span class="logo"><svg viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-width="15"><path d="M44 52V136H100" stroke="#fff"/><path d="M104 52V136M104 52H135M104 94H135M104 136H135" stroke="#F28C28"/></g><g fill="#F28C28"><circle cx="148" cy="52" r="13"/><circle cx="148" cy="94" r="13"/><circle cx="148" cy="136" r="13"/></g></svg></span>
+        <span class="brand-name">Link<span class="edge">Edge</span><br>Tech Solutions</span>
+      </a>
+      <nav aria-label="التنقل الرئيسي"><a href="#services">خدماتنا</a><a href="#why">لماذا نحن</a><a href="#steps">خطوات العمل</a><a href="#contact">تواصل معنا</a></nav>
+      <a class="btn btn-primary" href="https://wa.me/201203211171" target="_blank" rel="noopener">تواصل عبر واتساب</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <svg class="net" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g fill="none" stroke="#9dc8ec" stroke-width="1.2"><path d="M-20 600 170 470 350 535 525 320 730 420 930 180 1110 310 1460 95"/><path d="M55 120 245 250 430 145 630 250 815 90 1030 215 1220 120 1460 280"/><path d="M170 470 245 250M350 535 630 250M525 320 430 145M730 420 1030 215M930 180 815 90M1110 310 1220 120"/></g><g fill="#F28C28"><circle cx="170" cy="470" r="7"/><circle cx="350" cy="535" r="5"/><circle cx="525" cy="320" r="7"/><circle cx="730" cy="420" r="5"/><circle cx="930" cy="180" r="7"/><circle cx="1110" cy="310" r="5"/><circle cx="245" cy="250" r="5"/><circle cx="430" cy="145" r="7"/><circle cx="630" cy="250" r="5"/><circle cx="815" cy="90" r="6"/><circle cx="1030" cy="215" r="5"/><circle cx="1220" cy="120" r="7"/></g></svg>
+      <div class="wrap hero-inner">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">حلول تقنية متكاملة في بورسعيد</span>
+          <h1>كل اللي مشروعك محتاجه،<br><span>في مكان واحد.</span></h1>
+          <p class="intro">من الشبكات والأنظمة إلى حلول التيار الخفيف، ننفذ احتياجات مشروعك باحترافية وتنظيم ودعم تعتمد عليه.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#contact">اطلب معاينة مجانية</a>
+            <a class="btn btn-outline" href="tel:01203211171"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.08 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92z"/></svg>اتصل بنا</a>
+          </div>
+          <div class="audience"><span>الشركات</span><span>المصانع</span><span>المدارس</span><span>العيادات</span><span>الفنادق</span></div>
+        </div>
+        <div class="hero-badge"><strong>معاينة مجانية</strong><small>نفهم احتياجك ونقترح الحل الأنسب لمشروعك.</small></div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="wrap">
+        <div class="head reveal"><span class="eyebrow">خدماتنا</span><h2>بنية تقنية أقوى لمشروعك</h2><p class="lead">حلول مترابطة تُنفّذ من مصدر واحد لتوفير وقتك وضمان جودة كل جزء من المشروع.</p></div>
+        <div class="grid3">
+          <article class="service reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="5" rx="2"/><rect x="2" y="16" width="7" height="5" rx="2"/><rect x="15" y="16" width="7" height="5" rx="2"/><path d="M12 8v4M5.5 16v-2h13v2"/></svg></div><h3>الشبكات</h3><p>شبكات سلكية ولاسلكية، راوترات وسويتشات، وتغطية واي فاي قوية ومستقرة.</p></article>
+          <article class="service reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01M11 6.5h7M11 17.5h7"/></svg></div><h3>الأنظمة</h3><p>سيرفرات، دعم فني، نسخ احتياطي، وحماية بيانات لضمان استمرارية العمل.</p></article>
+          <article class="service reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h16v10H4z"/><path d="m8 8 2-3h4l2 3M9 13a3 3 0 1 0 6 0 3 3 0 0 0-6 0zM7 21h10"/></svg></div><h3>التيار الخفيف</h3><p>كاميرات مراقبة، انتركوم، حضور وانصراف، إنذار حريق، وتمديد كابلات.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="wrap why-grid">
+        <div class="why-panel reveal"><span class="eyebrow">شريك تقني موثوق</span><h2>حل يناسب احتياجك، وتنفيذ يريحك</h2><p>نهتم بالتفاصيل من أول معاينة حتى التسليم، لتستلم نظامًا منظمًا وقابلًا للاعتماد عليه.</p><div class="owner"><div class="owner-mark">م</div><div><strong>م. محمود الغنيمي</strong><small>Owner</small></div></div></div>
+        <div class="features">
+          <article class="feature reveal"><span class="check">✓</span><h3>مصدر واحد لكل الخدمات</h3><p>تنسيق أسهل ومسؤولية واضحة لكل أعمال التقنية.</p></article>
+          <article class="feature reveal"><span class="check">✓</span><h3>معاينة مجانية</h3><p>نقيّم الموقع ونفهم احتياج المشروع قبل التنفيذ.</p></article>
+          <article class="feature reveal"><span class="check">✓</span><h3>تنفيذ منظم وضمان</h3><p>تركيب مرتب وتسليم واضح مع ضمان على التنفيذ.</p></article>
+          <article class="feature reveal"><span class="check">✓</span><h3>رد سريع ودعم</h3><p>تواصل مباشر ومتابعة فنية وقت الحاجة.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="steps">
+      <div class="wrap"><div class="head reveal"><span class="eyebrow">خطوات بسيطة</span><h2>من المعاينة إلى التشغيل</h2></div><div class="step-grid">
+        <div class="step reveal"><div class="num">١</div><h3>معاينة مجانية</h3></div>
+        <div class="step reveal"><div class="num">٢</div><h3>عرض سعر</h3></div>
+        <div class="step reveal"><div class="num">٣</div><h3>تنفيذ</h3></div>
+        <div class="step reveal"><div class="num">٤</div><h3>تسليم وضمان</h3></div>
+      </div></div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info reveal"><span class="eyebrow">ابدأ مشروعك</span><h2>اطلب معاينتك المجانية</h2><p>أرسل تفاصيل احتياجك وسنتواصل معك لمناقشة الحل المناسب.</p>
+          <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8"/></svg><div><small>اتصال وواتساب</small><a class="phone" href="tel:01203211171">01203211171</a></div></div>
+          <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></svg><div><small>نخدمكم من</small><strong>بورسعيد، مصر</strong></div></div>
+        </div>
+        <form class="form reveal" id="waForm">
+          <div class="field"><label for="name">الاسم</label><input id="name" required placeholder="اكتب اسمك"></div>
+          <div class="field"><label for="phone">رقم الهاتف</label><input id="phone" type="tel" required inputmode="tel" placeholder="رقم للتواصل"></div>
+          <div class="field full"><label for="email">البريد الإلكتروني</label><input id="email" type="email" autocomplete="email" placeholder="name@example.com (optional)"></div>
+          <div class="field full"><label for="service">الخدمة المطلوبة</label><select id="service" required><option value="" selected disabled>اختر الخدمة</option><option>الشبكات</option><option>الأنظمة</option><option>التيار الخفيف</option><option>حلول متكاملة</option></select></div>
+          <div class="field full"><label for="message">تفاصيل الاحتياج</label><textarea id="message" placeholder="اكتب نبذة عن الموقع أو المطلوب"></textarea></div>
+          <button class="btn btn-primary" type="submit">إرسال الطلب عبر واتساب</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap foot"><a class="brand" href="#home"><span class="brand-name">Link<span class="edge">Edge</span> Tech Solutions</span></a><span>حلول تقنية متكاملة في بورسعيد، مصر</span><span>جميع الحقوق محفوظة <span id="year"></span></span></div></footer>
+  <a class="float" href="https://wa.me/201203211171" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M27.3 4.6A15.6 15.6 0 0 0 2.7 23.4L.5 31.5l8.3-2.2A15.6 15.6 0 0 0 27.3 4.6ZM16 28.9c-2.3 0-4.5-.6-6.4-1.7l-.5-.3-4.9 1.3 1.3-4.8-.3-.5A12.9 12.9 0 1 1 16 28.9Zm7.1-9.7c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.3-.5.3-.9.1-2.2-1.1-3.7-2-5.2-4.6-.4-.7.4-.7 1.1-2.2.1-.3.1-.5 0-.7l-1.2-2.9c-.3-.8-.7-.7-.9-.7h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.4-1.4 3.4s1.5 4 1.7 4.3c.2.3 2.9 4.5 7.1 6.3 2.6 1.1 3.6 1.2 4.9 1 1.5-.2 2.3-1.4 2.6-2.7.3-1.3.3-2.4.2-2.7-.2-.2-.5-.3-.9-.5Z"/></svg></a>
+  <a class="float float-facebook" href="https://www.facebook.com/profile.php?id=61596356373743&amp;open_field=website&amp;sk=directory_links" target="_blank" rel="noopener" aria-label="زيارة صفحة Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8.2h2.8l.4-3.2h-3.2v-2c0-.9.3-1.6 1.6-1.6h1.7V3.1c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.1H7v3.2h2.8V21h3.7Z"/></svg></a>
+  <script>
+    const form=document.getElementById("waForm");
+    form.addEventListener("submit",e=>{
+      e.preventDefault();
+      const name=document.getElementById("name").value.trim(),phone=document.getElementById("phone").value.trim(),email=document.getElementById("email").value.trim(),service=document.getElementById("service").value,message=document.getElementById("message").value.trim();
+      const text=`طلب معاينة مجانية\nالاسم: ${name}\nرقم الهاتف: ${phone}\nالبريد الإلكتروني: ${email||"غير مذكور"}\nالخدمة: ${service}\nالتفاصيل: ${message||"غير مذكورة"}`;
+      window.open(`https://wa.me/201203211171?text=${encodeURIComponent(text)}`,"_blank","noopener");
+    });
+    document.getElementById("year").textContent=new Date().getFullYear();
+    const observer=new IntersectionObserver(entries=>entries.forEach(x=>{if(x.isIntersecting){x.target.classList.add("show");observer.unobserve(x.target)}}),{threshold:.12});
+    document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+  </script>
+</body>
+</html>
